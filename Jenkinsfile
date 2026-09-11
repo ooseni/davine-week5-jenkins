@@ -19,7 +19,8 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running unit tests...'
-                sh 'echo "Simulating 100% test pass rate!"'
+                // Intentionally breaking the build below
+                sh 'cat missing_test_report.txt' 
             }
         }
 
