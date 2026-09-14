@@ -1,0 +1,42 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Jenkins
+*.war
+*.log
+build/
+target/
+.jenkins/
+
+# Node/JavaScript (if any UI is added)
+node_modules/
+dist/
+
+# Python (if any python scripts are used)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Vagrant
+.vagrant/
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
