@@ -65,3 +65,7 @@ As part of validating pipeline resilience, a deliberate failure was introduced t
 ---
 **Author:** Oseni Sakariyau Oluwadamilare (Dami)  
 **Role:** DevOps Engineering Intern @ Davine Technology
+
+## License
+
+Released under the [MIT License](LICENSE).
